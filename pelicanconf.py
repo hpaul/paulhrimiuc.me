@@ -4,13 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Paul'
 SITENAME = 'Paul H'
-SITEURL = ''
+SITEURL = 'https://paulhrimiuc.me'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Bucharest'
 
 DEFAULT_LANG = 'ro'
+
+THEME = 'themes/zurb-F5-basic'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
