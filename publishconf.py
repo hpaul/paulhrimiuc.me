@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'http://paulhrimiuc.me'
+SITEURL = 'https://paulhrimiuc.me'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -21,5 +21,6 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+GITHUB_URL = "https://github.com/hpaul"
+DISQUS_SITENAME = "paulhrimiuc"
 #GOOGLE_ANALYTICS = ""
